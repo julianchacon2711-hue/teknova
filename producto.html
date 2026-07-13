@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle de producto - Teknova</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="producto-page">
+    <script>
+        const loggedUser = localStorage.getItem('loggedUser');
+        if (!loggedUser) {
+            window.location.replace('img/inicio%20seccion.html');
+        }
+    </script>
+
+    <header>
+        <div class="logo-container">
+            <img src="img/logo.jpg" alt="Julian David" class="logo">
+        </div>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="index.html#servicios">Servicios</a>
+            <a href="catalogo.html">Productos</a>
+            <a href="index.html#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="producto-main">
+        <section class="producto-breadcrumbs">
+            <a href="catalogo.html" class="breadcrumb-link">← Volver al catálogo</a>
+        </section>
+
+        <section class="producto-detail">
+            <div class="producto-detail-grid">
+                <article class="producto-media">
+                    <div class="producto-main-image">
+                        <img id="productoImagenPrincipal" src="" alt="Imagen del producto">
+                    </div>
+                    <div id="productoMiniaturas" class="producto-miniaturas"></div>
+                </article>
+
+                <article class="producto-info">
+                    <p id="productoCategoria" class="eyebrow"></p>
+                    <h1 id="productoNombre">Producto</h1>
+                    <p id="productoPrecio" class="producto-precio"></p>
+                    <p id="productoDescripcion" class="producto-description"></p>
+
+                    <div class="producto-especificaciones">
+                        <h2>Especificaciones</h2>
+                        <ul id="productoEspecificaciones"></ul>
+                    </div>
+
+                    <a id="productoWhatsapp" class="btn whatsapp-btn" target="_blank" rel="noreferrer">Contactar por WhatsApp</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="productos-relacionados-section">
+            <h2>Productos relacionados</h2>
+            <div id="productosRelacionados" class="productos-grid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Teknova. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="producto.js"></script>
+</body>
+</html>

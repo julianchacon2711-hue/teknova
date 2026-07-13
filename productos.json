@@ -1,0 +1,76 @@
+{
+  "productos": [
+    {
+      "id": "audifonos",
+      "nombre": "Audífonos Bluetooth",
+      "categoria": "Auriculares",
+      "precio": "$35.000",
+      "descripcion": "Auriculares con sonido nítido, batería de larga duración y control táctil integrado para llamadas y música.",
+      "especificaciones": [
+        "Conexión Bluetooth 5.0",
+        "Hasta 20 horas de reproducción",
+        "Micrófono incorporado",
+        "Cancelación de ruido pasiva"
+      ],
+      "imagenes": [
+        "img/productos/audifonos.svg",
+        "img/productos/audifonos.svg",
+        "img/productos/audifonos.svg"
+      ]
+    },
+    {
+      "id": "cargador",
+      "nombre": "Cargador Rápido USB",
+      "categoria": "Cargadores",
+      "precio": "$18.000",
+      "descripcion": "Cargador rápido con protección contra sobrecarga y compatibilidad con carga de smartphones y tablets.",
+      "especificaciones": [
+        "Salida 18W",
+        "Protección contra sobrecalentamiento",
+        "Cable incluido",
+        "Compatible con múltiples dispositivos"
+      ],
+      "imagenes": [
+        "img/productos/cargador.svg",
+        "img/productos/cargador.svg",
+        "img/productos/cargador.svg"
+      ]
+    },
+    {
+      "id": "fundas",
+      "nombre": "Fundas Premium",
+      "categoria": "Fundas",
+      "precio": "$12.000",
+      "descripcion": "Fundas protectoras con acabado antideslizante que resguardan tu teléfono contra golpes y arañazos.",
+      "especificaciones": [
+        "Material flexible reforzado",
+        "Protección contra caídas",
+        "Ajuste perfecto para el dispositivo",
+        "Disponible en varios colores"
+      ],
+      "imagenes": [
+        "img/productos/fundas.svg",
+        "img/productos/fundas.svg",
+        "img/productos/fundas.svg"
+      ]
+    },
+    {
+      "id": "templado",
+      "nombre": "Vidrio Templado",
+      "categoria": "Vidrios",
+      "precio": "$15.000",
+      "descripcion": "Protección de pantalla con alta resistencia a golpes y huellas, fácil de instalar y sin burbujas.",
+      "especificaciones": [
+        "Dureza 9H",
+        "Acabado oleofóbico",
+        "Resistente a rayaduras",
+        "Fácil aplicación"
+      ],
+      "imagenes": [
+        "img/productos/templado.svg",
+        "img/productos/templado.svg",
+        "img/productos/templado.svg"
+      ]
+    }
+  ]
+}

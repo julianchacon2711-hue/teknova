@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="logo-container">
-            <img src="img/logo.jpg" alt="Julian David" class="logo">
+            <img src="img/limg/audifonos/1.jpgogo.jpg" alt="Julian David" class="logo">
         </div>
         <nav>
             <a href="index.html">Inicio</a>
@@ -19,67 +19,39 @@
         </nav>
     </header>
 
-    <main>
-        <!-- INICIO DE SECCIÓN -->
-        <section id="inicio" class="hero">
+    <main class="catalogo-page">
+        <section class="catalogo-hero">
             <div class="hero-content">
-                <h1>Catálogo de Accesorios</h1>
-                <h2>Todo lo necesario para tu celular</h2>
-                <p>Descubre cargadores, fundas, auriculares y más con calidad garantizada.</p>
+                <h1>Catálogo de Productos Teknova</h1>
+                <h2>Explora accesorios y encuentra lo que necesitas.</h2>
+                <p>Filtra por categoría, busca por nombre y abre cada producto para ver su detalle completo.</p>
             </div>
         </section>
 
-        <!-- PRODUCTOS -->
-        <section id="productos" class="productos">
-
-            <h2>ACCESORIOS PARA CELULARES</h2>
-
-            <div class="productos-grid">
-
-                <div class="producto">
-                    <img src="img/audifonos.jpg alt="audifonos">
-                    <h3>Audífonos Bluetooth</h3>
-                </div>
-
-                <div class="producto">
-                    <img src="img/cargador.jpg" alt="">
-                    <h3>Cargadores</h3>
-                </div>
-
-                <div class="producto">
-                    <img src="img/fundas.jpg" alt="">
-                    <h3>Fundas</h3>
-                </div>
-
-                <div class="producto">
-                    <img src="img/templado.jpg" alt="">
-                    <h3>Vidrios Templados</h3>
-                </div>
-
-                <div class="producto">
-                    <img src="img/cables.jpg" alt="">
-                    <h3>Cables USB</h3>
-                </div>
-
-                <div class="producto">
-                    <img src="img/powerbank.jpg" alt="">
-                    <h3>Power Banks</h3>
-                </div>
-
-                <div class="producto">
-                    <img src="img/smartwatch.jpg" alt="">
-                    <h3>Smartwatch</h3>
-                </div>
-
-                <div class="producto">
-                    <img src="img/parlantebt.jpg" alt="">
-                    <h3>Parlantes Bluetooth</h3>
-                </div>
-
+        <section class="catalogo-section">
+            <div class="catalogo-toolbar">
+                <label class="catalogo-search">
+                    <span class="sr-only">Buscar producto</span>
+                    <input id="catalogoSearch" type="search" placeholder="Buscar producto">
+                </label>
+                <label class="catalogo-select">
+                    <span class="sr-only">Filtrar categoría</span>
+                    <select id="catalogoCategory"></select>
+                </label>
             </div>
 
+            <div id="catalogoGrid" class="catalogo-grid"></div>
+            <p id="catalogoEmpty" class="catalogo-empty">No hay productos que coincidan con tu búsqueda.</p>
         </section>
     </main>
+
+    <div id="galeriaModal" class="galeria-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="galeriaTitulo">
+        <div class="galeria-contenido">
+            <button type="button" class="cerrar" aria-label="Cerrar galería">×</button>
+            <h2 id="galeriaTitulo" class="sr-only">Galería de accesorios</h2>
+            <div id="galeriaContenido" class="galeria-items"></div>
+        </div>
+    </div>
 
     <footer>
         <p>&copy; 2026 Teknova. Todos los derechos reservados.</p>
