@@ -5,6 +5,20 @@ const path = require('path');
 const rootDir = __dirname;
 const dataDir = path.join(rootDir, 'data');
 const usersFile = path.join(dataDir, 'users.json');
+const EMAIL_REGEX = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
+const USERNAME_REGEX = /^[a-zA-Z0-9_.-]{3,}$/;
+
+function isValidEmail(value) {
+  return EMAIL_REGEX.test(value);
+}
+
+function isValidUsername(value) {
+  return USERNAME_REGEX.test(value);
+}
+
+function isValidPassword(value) {
+  return typeof value === 'string' && value.length >= 6;
+}
 
 function ensureDataFile() {
   if (!fs.existsSync(dataDir)) {
@@ -89,7 +103,15 @@ const server = http.createServer(async (req, res) => {
       if (!fullname || !email || !username || !password || !confirmPassword) {
         return sendJson(res, 400, { ok: false, message: 'Completa todos los campos.' });
       }
-
+      if (!isValidEmail(email)) {
+        return sendJson(res, 400, { ok: false, message: 'Ingresa un correo válido.' });
+      }
+      if (!isValidUsername(username)) {
+        return sendJson(res, 400, { ok: false, message: 'El usuario debe tener al menos 3 caracteres y solo puede incluir letras, números, puntos, guiones o guiones bajos.' });
+      }
+      if (!isValidPassword(password)) {
+        return sendJson(res, 400, { ok: false, message: 'La contraseña debe tener al menos 6 caracteres.' });
+      }
       if (password !== confirmPassword) {
         return sendJson(res, 400, { ok: false, message: 'Las contraseñas no coinciden.' });
       }

@@ -1,6 +1,7 @@
 import json
 import mimetypes
 import os
+import re
 from http import HTTPStatus
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -9,6 +10,21 @@ from urllib.parse import unquote, urlparse
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data"
 USERS_FILE = DATA_DIR / "users.json"
+
+EMAIL_REGEX = re.compile(r'^[^@\s]+@[^@\s]+\.[^@\s]+$')
+USERNAME_REGEX = re.compile(r'^[a-zA-Z0-9_.-]{3,}$')
+
+
+def is_valid_email(value):
+    return bool(EMAIL_REGEX.match(value))
+
+
+def is_valid_username(value):
+    return bool(USERNAME_REGEX.match(value))
+
+
+def is_valid_password(value):
+    return len(value) >= 6
 
 
 def ensure_data_file():
@@ -91,6 +107,15 @@ class Handler(BaseHTTPRequestHandler):
 
         if not fullname or not email or not username or not password or not confirm_password:
             self._send_json(400, {"ok": False, "message": "Completa todos los campos."})
+            return
+        if not is_valid_email(email):
+            self._send_json(400, {"ok": False, "message": "Ingresa un correo válido."})
+            return
+        if not is_valid_username(username):
+            self._send_json(400, {"ok": False, "message": "El usuario debe tener al menos 3 caracteres y solo puede incluir letras, números, puntos, guiones o guiones bajos."})
+            return
+        if not is_valid_password(password):
+            self._send_json(400, {"ok": False, "message": "La contraseña debe tener al menos 6 caracteres."})
             return
         if password != confirm_password:
             self._send_json(400, {"ok": False, "message": "Las contraseñas no coinciden."})
