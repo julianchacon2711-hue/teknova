@@ -2,21 +2,150 @@
   "productos": [
     {
       "id": "audifonos",
-      "nombre": "Audífonos Bluetooth",
+      "nombre": "AURICULARES VINCHA BLUETOOTH P2961",
       "categoria": "Auriculares",
       "precio": "$35.000",
-      "descripcion": "Auriculares con sonido nítido, batería de larga duración y control táctil integrado para llamadas y música.",
+      "descripcion": "Auriculares inalámbricos Bluetooth P2961 tipo vincha, con micrófono, driver de 40 mm, controles de reproducción, entrada auxiliar 3.5 mm y diseño cómodo.",
       "especificaciones": [
-        "Conexión Bluetooth 5.0",
-        "Hasta 20 horas de reproducción",
-        "Micrófono incorporado",
-        "Cancelación de ruido pasiva"
+        "Auriculares inalámbricos Bluetooth modelo P2961.",
+        "Diseño tipo vincha, cómodo para uso diario.",
+        "Formato Sport Headphones, según información del empaque.",
+        "Driver informado de 40 mm.",
+        "Batería informada de 200 mAh.",
+        "Permite control de volumen, reproducción y pausa.",
+        "Incluye función de micrófono para llamadas.",
+        "Compatible con uso inalámbrico, conexión auxiliar y SD.",
+        "Cable de carga incluido con conexión USB a tipo C.",
+        "Diseño liviano con almohadillas acolchadas para mayor comodidad."
       ],
       "imagenes": [
-        "img/productos/audifonos.svg",
-        "img/productos/audifonos.svg",
-        "img/productos/audifonos.svg"
+        "img/productos/audi1.jpg",
+        "img/productos/audi2.jpg"
       ]
+    },
+    {
+      "id": "audifonos2",
+      "nombre": "AURICULARES VINCHA BLUETOOTH SBY-46/0490",
+      "categoria": "Auriculares",
+      "precio": "$40.000",
+      "descripcion": "Disfrutá música, llamadas y radio FM con sonido estéreo, Bluetooth 5.3 y compatibilidad TF para una experiencia más completa.",
+      "especificaciones": [
+        "Auriculares Bluetooth ideales para música, gaming, llamadas y uso diario con sonido estéreo de alta calidad.",
+        "Tecnología Bluetooth 5.3 que brinda conexión rápida, estable y mayor compatibilidad con dispositivos.",
+        "Sonido HiFi y HD Voice para una experiencia más clara y envolvente.",
+        "Compatibles con celulares, tablets, notebooks, PCs y dispositivos Bluetooth.",
+        "Incluyen entrada auxiliar 3.5 mm para utilizar con cable cuando sea necesario.",
+        "Función manos libres integrada para responder llamadas fácilmente.",
+        "Compatibles con tarjeta TF/MicroSD para reproducir música directamente desde memoria externa.",
+        "Radio FM incorporada para escuchar emisoras sin necesidad de otros dispositivos.",
+        "Controles integrados para:",
+        "Cambiar canciones",
+        "Ajustar volumen",
+        "Atender llamadas",
+        "Activar asistente de voz",
+        "Diseño cómodo y moderno ideal para entretenimiento, trabajo y gaming.",
+        "Excelente relación precio-calidad, stock real y disponibilidad inmediata para venta mayorista online."
+      ],
+      "imagenes": [
+        "img/productos/audi3.jpg",
+        "img/productos/audi4.jpg"
+      ]
+    },
+    {
+        "id": "audifonos3",
+        "nombre": "AURICULAR VINCHA BLUETOOTH LP-3500",
+        "categoria": "auriculares",
+        "precio": "32.000",
+        "descripcion": "Auriculares Bluetooth Legatus LP-3500. Vincha acolchada, con micrófono y gran sonido. En negro, gris, azul oscuro y rojo. Súmalo a tu catalogo.",
+        "especificaciones": [
+         "Modelo: LP-3500",
+         "Conectividad Bluetooth inalámbrica",
+         "Diseño de vincha ergonómica ajustable",
+         "Micrófono incorporado para llamadas",
+         "Sonido nítido con graves potentes",
+         "Almohadillas acolchadas ultra cómodas",
+         "Colores disponibles: negro, gris, azul oscuro y rojo",
+         "Batería recargable de larga duración."
+
+         ],
+
+        "imagenes": [
+          "img/productos/audi5.jpg",
+          "img/productos/audi6.jpg"
+        ]
+    },
+    {
+        "id": "audifonos4",
+        "nombre": "",
+        "categoria": "",
+        "precio": "",
+        "descripcion": "",
+        "especificaciones": [],
+
+        "imagenes": [
+           "img/productos/audi7.jpg",
+           "img/productos/audi8.jpg"
+        ]
+    },
+    {
+        "id": "audifonos5",
+        "nombre": "",
+        "categoria": "",
+        "precio": "",
+        "descripcion": "",
+        "especificaciones": [],
+        
+        "imagenes": [
+           "img/productos/audi9.jpg",
+           "img/productos/audi10.jpg"]
+    },
+     {
+        "id": "audifonos6",
+        "nombre": "",
+        "categoria": "",
+        "precio": "",
+        "descripcion": "",
+        "especificaciones": [],
+        
+        "imagenes": [
+            "img/productos/audi12.jpg",
+            "img/productos/audi13.jpg"]
+    },
+     {
+        "id": "audifonos7",
+        "nombre": "",
+        "categoria": "",
+        "precio": "",
+        "descripcion": "",
+        "especificaciones": [],
+        
+        "imagenes": [
+            "img/productos/audi14.jpg",
+            "img/productos/audi15.jpg"]
+    },
+     {
+        "id": "audifonos8",
+        "nombre": "",
+        "categoria": "",
+        "precio": "",
+        "descripcion": "",
+        "especificaciones": [],
+        
+        "imagenes": [
+            "img/productos/audi16.jpg",
+            "img/productos/audi17.jpg"]
+    },
+    {
+        "id": "audifonos9",
+        "nombre": "",
+        "categoria": "",
+        "precio": "",
+        "descripcion": "",
+        "especificaciones": [],
+        
+        "imagenes": [
+            "img/productos/audi18.jpg",
+            "img/productos/audi19.jpg"]
     },
     {
       "id": "cargador",

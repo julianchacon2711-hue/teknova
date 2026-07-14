@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const whatsappBtn = document.getElementById('productoWhatsapp');
 
     if (!productId) {
-        window.location.replace('productos.html');
+        window.location.replace('catalogo.html');
         return;
     }
 
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const product = products.find(item => item.id === productId);
     if (!product) {
-        window.location.replace('productos.html');
+        window.location.replace('catalogo.html');
         return;
     }
 

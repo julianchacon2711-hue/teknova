@@ -617,9 +617,20 @@ footer {
 }
 
 .catalogo-hero {
+    position: relative;
+    overflow: hidden;
     padding: 90px 24px 60px;
     text-align: center;
     background: linear-gradient(135deg, rgba(10, 84, 200, .22) 0%, rgba(0, 0, 0, .95) 100%);
+}
+
+.catalogo-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url("img/logo.jpg") center 20%/420px no-repeat;
+    opacity: 0.06;
+    pointer-events: none;
 }
 
 .catalogo-section {
@@ -654,7 +665,9 @@ footer {
     margin: 0 auto;
 }
 
-.catalogo-card {
+.catalogo-card,
+.producto-card {
+    position: relative;
     background: var(--dark3);
     border: 1px solid rgba(255, 255, 255, .08);
     border-radius: 24px;
@@ -662,7 +675,18 @@ footer {
     transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease;
 }
 
-.catalogo-card:hover {
+.catalogo-card::before,
+.producto-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url("img/logo.jpg") center/180px no-repeat;
+    opacity: 0.07;
+    pointer-events: none;
+}
+
+.catalogo-card:hover,
+.producto-card:hover {
     transform: translateY(-6px);
     border-color: rgba(10, 132, 255, .35);
     box-shadow: 0 18px 40px rgba(0, 0, 0, .16);
@@ -787,7 +811,9 @@ footer {
 .producto-thumb img {
     width: 100%;
     height: 80px;
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center;
+    background: rgba(255, 255, 255, 0.03);
     display: block;
 }
 
