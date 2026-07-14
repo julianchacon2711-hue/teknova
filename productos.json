@@ -76,11 +76,26 @@
     },
     {
         "id": "audifonos4",
-        "nombre": "",
-        "categoria": "",
-        "precio": "",
-        "descripcion": "",
-        "especificaciones": [],
+        "nombre": "AURICULAR VINCHA BLUETOOTH SBY-16/0489",
+        "categoria": "auriculares",
+        "precio": "38.000",
+        "descripcion": "Auriculares vincha Bluetooth SBY-16 con luces RGB, micrófono, entrada AUX 3.5 mm, soporte tarjeta TF, radio FM y batería recargable.",
+        "especificaciones": [
+          "Auriculares inalámbricos tipo vincha modelo SBY-16.",
+          "Conexión inalámbrica Bluetooth para uso con celulares, tablets, notebooks y otros dispositivos compatibles.",
+          "Diseño estéreo con sonido HiFi y efecto de sonido envolvente.",
+          "Luces RGB multicolor en los laterales.",
+          "Micrófono incorporado para llamadas con manos libres.",
+          "Vincha ajustable para mayor comodidad de uso.",
+          "Entrada auxiliar 3.5 mm AUX para reproducción por cable.",
+          "Soporte para tarjeta TF / Micro SD para reproducción de música.",
+          "Función radio FM con frecuencia 87.5–108 MHz según empaque.",
+          "Parlantes de 40 mm.",
+          "Batería recargable de litio 250 mAh según caja.",
+          "Alcance inalámbrico aproximado: 10 metros.",
+          "Carga mediante cable USB incluido.",
+          "Ideal para música, juegos, llamadas, estudio, viajes o uso diario."
+        ],
 
         "imagenes": [
            "img/productos/audi7.jpg",
@@ -89,63 +104,124 @@
     },
     {
         "id": "audifonos5",
-        "nombre": "",
-        "categoria": "",
-        "precio": "",
-        "descripcion": "",
-        "especificaciones": [],
+        "nombre": "AURICULAR VINCHA BLUETOOTH P47 HQ-232/0002",
+        "categoria": "auriculares",
+        "precio": "30.000",
+        "descripcion": "Auriculares inalámbricos Bluetooth P47 tipo vincha, con micrófono, driver de 40 mm, controles integrados, batería de 200 mAh y cable USB a micro USB.",
+        "especificaciones": [
+          "Auriculares inalámbricos Bluetooth modelo P47.",
+          "Versión Bluetooth informada: 5.0 + EDR.",
+          "Diseño tipo vincha con almohadillas acolchadas.",
+          "Driver informado de 40 mm.",
+          "Alcance de conexión informado: aprox. 10 metros.",
+          "Incluye micrófono para llamadas.",
+          "Permite controlar volumen, reproducción, pausa y llamadas desde el auricular.",
+          "Compatible con uso inalámbrico Bluetooth, modo con cable auxiliar y SD.",
+          "Batería informada de 200 mAh.",
+          "Incluye cable de carga USB a micro USB."
+        ],
         
         "imagenes": [
            "img/productos/audi9.jpg",
-           "img/productos/audi10.jpg"]
+           "img/productos/audi10.jpg"
+          ]
     },
-     {
+    {
         "id": "audifonos6",
-        "nombre": "",
-        "categoria": "",
-        "precio": "",
-        "descripcion": "",
-        "especificaciones": [],
+        "nombre": "AURICULARES BLUETOOTH VINCHA CAT47",
+        "categoria": "auriculares",
+        "precio": "30.000",
+        "descripcion": "Auriculares Cat P47 Bluetooth 5.0 con diseño de orejas de gato, luces RGB, micrófono incorporado, vincha ajustable, entrada AUX, soporte TF y carga USB.",
+        "especificaciones": [
+          "Auriculares inalámbricos tipo vincha modelo P47, diseño Cat con orejas de gato.",
+          "Conexión Bluetooth 5.0 según empaque.",
+          "Diseño cómodo y ajustable para mayor estabilidad durante el uso.",
+          "Cuenta con luces RGB decorativas en las orejas, con diseño de luces de colores.",
+          "Sonido de alta definición, con altavoz dinámico de 50 mm según empaque.",
+          "Micrófono incorporado para llamadas con manos libres.",
+          "Control con botones para operar funciones principales del auricular.",
+          "Soporte para tarjeta TF, permitiendo reproducir música en formato MP3.",
+          "Entrada auxiliar para uso con cable AUX.",
+          "Batería recargable mediante cable USB incluido.",
+          "Diseño plegable/ajustable, práctico para uso diario, viajes o entretenimiento.",
+          "Incluye auriculares y cable de carga USB a Micro USB."
+        ],
         
         "imagenes": [
             "img/productos/audi12.jpg",
-            "img/productos/audi13.jpg"]
+            "img/productos/audi13.jpg"
+          ]
     },
-     {
+    {
         "id": "audifonos7",
-        "nombre": "",
-        "categoria": "",
-        "precio": "",
-        "descripcion": "",
-        "especificaciones": [],
+        "nombre": "AURICULARES VINCHA BLUETOOTH B32",
+        "categoria": "auriculares",
+        "precio": "30.000",
+        "descripcion": "Auriculares inalámbricos Bluetooth B32 tipo vincha, con luz LED colorida, micrófono, controles integrados y entrada auxiliar 3.5 mm.",
+        "especificaciones": [
+          "Auriculares inalámbricos Bluetooth modelo B32.",
+          "Diseño tipo vincha con almohadillas acolchadas.",
+          "Parlantes de 40 mm, según empaque.",
+          "Luz LED colorida en los laterales.",
+          "Incluye micrófono para llamadas manos libres.",
+          "Cuenta con controles integrados para música, volumen y llamadas.",
+          "Entrada auxiliar 3.5 mm para uso con cable.",
+          "Compatible con dispositivos Bluetooth.",
+          "Carga mediante cable USB a Micro USB."
+        ],
         
         "imagenes": [
             "img/productos/audi14.jpg",
-            "img/productos/audi15.jpg"]
+            "img/productos/audi15.jpg"
+          ]
     },
-     {
+    {
         "id": "audifonos8",
-        "nombre": "",
-        "categoria": "",
-        "precio": "",
-        "descripcion": "",
-        "especificaciones": [],
+        "nombre": "AURICULARES VINCHA BLUETOOTH 160-M3",
+        "categoria": "auriculares",
+        "precio": "30.000",
+        "descripcion": "Auriculares Bluetooth 160-M3 tipo vincha, con micrófono, driver de 40 mm, controles integrados, entrada auxiliar, ranura TF y carga Type-C.",
+        "especificaciones": [
+          "Auriculares inalámbricos Bluetooth modelo 160-M3.",
+          "Versión inalámbrica informada: V5.3.",
+          "Diseño tipo vincha con almohadillas acolchadas.",
+          "Driver informado de 40 mm.",
+          "Incluye micrófono para llamadas manos libres.",
+          "Permite controlar canciones, volumen, pausa, reproducción y llamadas.",
+          "Compatible con dispositivos Bluetooth, PC y celulares.",
+          "Cuenta con entrada auxiliar 3.5 mm y SD.",
+          "Incluye ranura para tarjeta TF.",
+          "Incluye cable de carga USB a Type-C."
+        ],
         
         "imagenes": [
             "img/productos/audi16.jpg",
-            "img/productos/audi17.jpg"]
+            "img/productos/audi17.jpg"
+          ]
     },
     {
         "id": "audifonos9",
-        "nombre": "",
-        "categoria": "",
-        "precio": "",
-        "descripcion": "",
-        "especificaciones": [],
+        "nombre": "AURICULARES VINCHA BLUETOOTH WH-XB710N",
+        "categoria": "auriculares",
+        "precio": "40.000",
+        "descripcion": "Auriculares Bluetooth WH-XB710N tipo vincha, con micrófono, controles integrados, entrada auxiliar, ranura para tarjeta y carga Type-C.",
+        "especificaciones": [
+          "Auriculares inalámbricos Bluetooth modelo WH-XB710N.",
+          "Diseño tipo vincha con almohadillas acolchadas.",
+          "Formato liviano y plegable, según información del empaque.",
+          "Permite controlar música desde el auricular.",
+          "Incluye micrófono para llamadas.",
+          "Cuenta con entrada auxiliar 3.5 mm y SD.",
+          "Incluye ranura para tarjeta de memoria.",
+          "Incluye cable de carga USB a Type-C.",
+          "Autonomía informada de hasta 11 horas, según empaque.",
+          "Diseño cómodo para música, llamadas y uso diario."
+        ],
         
         "imagenes": [
             "img/productos/audi18.jpg",
-            "img/productos/audi19.jpg"]
+            "img/productos/audi19.jpg"
+          ]
     },
     {
       "id": "cargador",
